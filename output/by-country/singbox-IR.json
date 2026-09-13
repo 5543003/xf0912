@@ -4,30 +4,26 @@
   },
   "outbounds": [
     {
-      "type": "hysteria2",
-      "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
-      "server": "fast.news.gazette.help",
-      "server_port": 443,
-      "password": "c-E0lamG8OnEj9M_uh3oJPmIXqYIVGctO-NHELF1TmNYs7Jl",
-      "tls": {
-        "enabled": true,
-        "server_name": "cz.h2.cleanersaz.help",
-        "insecure": false
-      }
+      "type": "shadowsocks",
+      "tag": "🇮🇷 IR 01 - xiaohe",
+      "server": "185.215.229.89",
+      "server_port": 2059,
+      "method": "2022-blake3-aes-128-gcm",
+      "password": "UNwz52+FRB+hlYab6Zvc1A==:TtRF2F7PE7Twnd8r3yipPA=="
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇿 捷克 (Czech) 01 - xiaohe"
+        "🇮🇷 IR 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇿 捷克 (Czech) 01 - xiaohe"
+        "🇮🇷 IR 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
