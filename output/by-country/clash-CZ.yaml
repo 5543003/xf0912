@@ -5,16 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - xiaohe
-  server: 104.21.70.21
-  port: 8080
+  server: 172.67.140.37
+  port: 443
   udp: true
   type: vless
-  uuid: b69b43d1-091d-4d7c-90b2-7a8bbad9d6a9
+  uuid: 527451fe-ee1f-4e6f-94ca-808f055f7c9b
+  tls: true
+  servername: 05a5f9v5a6cm563ieoye7j-8tnpd.hsysyegegrygvvvdujhh.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /eyJqdW5rIjoiY0U2T212Y21yeEhUZHRKYSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
+    path: /vl/ERYN0G44hia16zhR
     headers:
-      Host: bitter-credit-61b8.b76eba0abb.workers.dev
+      Host: 05a5f9v5a6cm563ieoye7j-8tnpd.hsysyegegrygvvvdujhh.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
