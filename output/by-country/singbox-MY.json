@@ -18,7 +18,7 @@
     {
       "type": "vless",
       "tag": "🇲🇾 马来西亚 (Malaysia) 02 - xiaohe",
-      "server": "8.222.70.238",
+      "server": "43.159.4.80",
       "server_port": 443,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "tls": {
@@ -28,7 +28,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/mall/china/doc?ed=2560fp=chrome",
+        "path": "/episode/files?ed=2560fp=chrome",
         "headers": {
           "Host": "cdn8848.776676.xyz"
         }
