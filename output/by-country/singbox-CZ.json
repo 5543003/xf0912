@@ -6,19 +6,21 @@
     {
       "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
-      "server": "fpoixf69hqt3e6d4urtb.mamadneizeh.workers.dev",
+      "server": "cepchik.nxxzxaw.beer",
       "server_port": 443,
-      "uuid": "0b41f339-5809-46ef-8351-b03fdc441539",
+      "uuid": "4bdeee92-97e8-414d-bef6-ec1d5e2ab73b",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "fpoixf69hqt3e6d4urtb.mamadneizeh.workers.dev",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vl/lYNtP7z8pJUmfp01tz5wEnuDujJtZ",
-        "headers": {
-          "Host": "fpoixf69hqt3e6d4urtb.mamadneizeh.workers.dev"
+        "server_name": "cepchik.nxxzxaw.beer",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "WU5baXUzRH9BceiYI8MPBmDMEloTFImx2vvE5uh1yjM",
+          "short_id": "f19e02a2fb573c18"
         }
       }
     },
