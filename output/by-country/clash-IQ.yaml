@@ -5,19 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇶 IQ 01 - xiaohe
-  server: www.speedtest.net
+  server: 104.21.77.12
   port: 443
   udp: true
   type: vless
-  uuid: 3423809a-08e5-4b93-bd76-c6cdcbfd9b52
+  uuid: 26168a04-a91c-48fc-b8d0-3ba5a4e719c4
   tls: true
-  servername: bn1jywok-7txq9p7e.fbgbjr7g344b78sqlruz7u621njij.workers.dev
+  servername: 2yijonkovdic86iq5ebnd1moqqf.yyuz0mhr4awg8vw-wwycuu4.workers.dev
   skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /vl/qAuPpP8UsUmtA5NiXmiGs
+    path: /vl/17NBgz64AfwQ4Dd6qdNR?ed=2560
     headers:
-      Host: bn1jywok-7txq9p7e.fbgbjr7g344b78sqlruz7u621njij.workers.dev
+      Host: 2yijonkovdic86iq5ebnd1moqqf.yyuz0mhr4awg8vw-wwycuu4.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
