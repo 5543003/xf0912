@@ -6,33 +6,25 @@
     {
       "type": "hysteria2",
       "tag": "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe",
-      "server": "e0064cf5-tmm5c0-to0mym-z93q.hk3.hyhuawei.com",
+      "server": "b0ae2b60-tmm5c0-tyn7s3-1q3dm.hk3.hyhuawei.com",
       "server_port": 443,
-      "password": "40639730-e027-11ea-87ad-f23c913c8d2b",
+      "password": "c1785de0-212f-11ef-92aa-f23c9164ca5d",
       "tls": {
         "enabled": true,
-        "server_name": "e0064cf5-tmm5c0-to0mym-z93q.hk3.hyhuawei.com",
+        "server_name": "b0ae2b60-tmm5c0-tyn7s3-1q3dm.hk3.hyhuawei.com",
         "insecure": true
       }
     },
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe",
-      "server": "a736eb68-tmb1c0-tpkh0c-1r7od.hk2.hyhuawei.com",
+      "server": "38861941-tmm5c0-tvb36r-1qwom.nw4.hyhuawei.com",
       "server_port": 443,
-      "uuid": "6d56436c-150d-11f0-b0c8-f23c913c8d2b",
+      "password": "8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9",
       "tls": {
         "enabled": true,
-        "server_name": "download.windowsupdate.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "c9DdggKaJGSH7FN3JgGbi9ZvsUqOGGpIr7BhzTWeTCo",
-          "short_id": ""
-        }
+        "server_name": "38861941-tmm5c0-tvb36r-1qwom.nw4.hyhuawei.com",
+        "insecure": true
       }
     },
     {
