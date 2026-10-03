@@ -5,23 +5,26 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇦🇷 阿根廷 (Argentina) 01 - xiaohe",
-      "server": "2.26.80.235",
-      "server_port": 443,
-      "uuid": "cb0ccf90-0e8f-4621-b042-4e35c797de2b",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇦🇶 AQ 01 - xiaohe",
+      "server": "2.27.26.132",
+      "server_port": 444,
+      "uuid": "141bbdef-a341-4846-aec7-9d6531ff8790",
       "tls": {
         "enabled": true,
-        "server_name": "dl.google.com",
+        "server_name": "apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
-          "public_key": "_gjcl5q-hkJIFmKYSY9DbBcSiBHK3YUAKOfZzZqnkT8",
-          "short_id": "c17f1d8951b3bf90"
+          "public_key": "dEhIR-YkvqguXB5_P3LMuyNYM82lMHQsSGhhtkmvE0k",
+          "short_id": "d7abeb515312dc2f"
         }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "apple.com"
       }
     },
     {
@@ -29,14 +32,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇷 阿根廷 (Argentina) 01 - xiaohe"
+        "🇦🇶 AQ 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇷 阿根廷 (Argentina) 01 - xiaohe"
+        "🇦🇶 AQ 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
