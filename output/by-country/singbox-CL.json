@@ -6,6 +6,73 @@
     {
       "type": "vless",
       "tag": "🇨🇱 智利 (Chile) 01 - xiaohe",
+      "server": "platform109.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform109",
+        "headers": {
+          "Host": "platform109.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇱 智利 (Chile) 02 - xiaohe",
+      "server": "platform117.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform117",
+        "headers": {
+          "Host": "platform117.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇱 智利 (Chile) 03 - xiaohe",
+      "server": "platform118.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform118",
+        "headers": {
+          "Host": "platform118.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇱 智利 (Chile) 04 - xiaohe",
+      "server": "platform115.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform115",
+        "headers": {
+          "Host": "platform115.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇱 智利 (Chile) 05 - xiaohe",
+      "server": "platform108.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform108"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇱 智利 (Chile) 06 - xiaohe",
       "server": "platform106.golnamakcert.top",
       "server_port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
@@ -16,7 +83,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇱 智利 (Chile) 02 - xiaohe",
+      "tag": "🇨🇱 智利 (Chile) 07 - xiaohe",
       "server": "platform107.golnamakcert.top",
       "server_port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
@@ -24,24 +91,27 @@
         "type": "ws",
         "path": "/platform107",
         "headers": {
-          "Host": "platform107.golnamakcert.top"
+          "Host": "platform107.halalkhor.info"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇨🇱 智利 (Chile) 03 - xiaohe",
-      "server": "platform109.golnamakcert.top",
+      "tag": "🇨🇱 智利 (Chile) 08 - xiaohe",
+      "server": "platform101.golnamakcert.top",
       "server_port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
       "transport": {
         "type": "ws",
-        "path": "/platform109"
+        "path": "/platform101",
+        "headers": {
+          "Host": "platform101.halalkhor.info"
+        }
       }
     },
     {
       "type": "vless",
-      "tag": "🇨🇱 智利 (Chile) 04 - xiaohe",
+      "tag": "🇨🇱 智利 (Chile) 09 - xiaohe",
       "server": "platform103.golnamakcert.top",
       "server_port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
@@ -55,7 +125,18 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇱 智利 (Chile) 05 - xiaohe",
+      "tag": "🇨🇱 智利 (Chile) 10 - xiaohe",
+      "server": "platform113.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform113"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇱 智利 (Chile) 11 - xiaohe",
       "server": "platform102.golnamakcert.top",
       "server_port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
@@ -69,25 +150,17 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇱 智利 (Chile) 06 - xiaohe",
-      "server": "platform101.golnamakcert.top",
-      "server_port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "tag": "🇨🇱 智利 (Chile) 12 - xiaohe",
+      "server": "88.216.66.30",
+      "server_port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "transport": {
         "type": "ws",
-        "path": "/platform101",
+        "path": "/",
         "headers": {
-          "Host": "platform101.halalkhor.info"
+          "Host": "vms.lifetime04.workers.dev"
         }
       }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇱 智利 (Chile) 07 - xiaohe",
-      "server": "64.176.2.21",
-      "server_port": 8388,
-      "method": "aes-256-gcm",
-      "password": "xBStBEVqvGwHPocc"
     },
     {
       "type": "selector",
@@ -100,7 +173,12 @@
         "🇨🇱 智利 (Chile) 04 - xiaohe",
         "🇨🇱 智利 (Chile) 05 - xiaohe",
         "🇨🇱 智利 (Chile) 06 - xiaohe",
-        "🇨🇱 智利 (Chile) 07 - xiaohe"
+        "🇨🇱 智利 (Chile) 07 - xiaohe",
+        "🇨🇱 智利 (Chile) 08 - xiaohe",
+        "🇨🇱 智利 (Chile) 09 - xiaohe",
+        "🇨🇱 智利 (Chile) 10 - xiaohe",
+        "🇨🇱 智利 (Chile) 11 - xiaohe",
+        "🇨🇱 智利 (Chile) 12 - xiaohe"
       ]
     },
     {
@@ -113,7 +191,12 @@
         "🇨🇱 智利 (Chile) 04 - xiaohe",
         "🇨🇱 智利 (Chile) 05 - xiaohe",
         "🇨🇱 智利 (Chile) 06 - xiaohe",
-        "🇨🇱 智利 (Chile) 07 - xiaohe"
+        "🇨🇱 智利 (Chile) 07 - xiaohe",
+        "🇨🇱 智利 (Chile) 08 - xiaohe",
+        "🇨🇱 智利 (Chile) 09 - xiaohe",
+        "🇨🇱 智利 (Chile) 10 - xiaohe",
+        "🇨🇱 智利 (Chile) 11 - xiaohe",
+        "🇨🇱 智利 (Chile) 12 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
